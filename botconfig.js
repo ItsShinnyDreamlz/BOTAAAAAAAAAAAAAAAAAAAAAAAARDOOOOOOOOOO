@@ -4,7 +4,7 @@ module.exports = {
   DefaultPrefix: process.env.Prefix || "/", //Default prefix, Server Admins can change the prefix
   Port: 3000, //Which port website gonna be hosted
   SupportServer: "https://discord.gg/SchEbTFaNM", //Donot change..
-  Token: process.env.Token || "ODk1MzEwNzA2NzI2MDIzMjQ4.YV2tEg.S1otOGQG0al7_j6IPBFQNoBMhYw", //Discord Bot Token
+  Token: process.env.Token || "ODk1MzEwNzA2NzI2MDIzMjQ4.YV2tEg.GalmrAFPV-MKh8cORcUd-PdLAf0", //Discord Bot Token
   ClientID: process.env.Discord_ClientID || "895310706726023248", //Discord Client ID
   ClientSecret: process.env.Discord_ClientSecret || "QNSfxKdh5YJIQr3I7JRipRXwz2zd5HdR", //Discord Client Secret
   Scopes: ["identify", "guilds", "applications.commands"], //Discord OAuth2 Scopes
@@ -30,7 +30,7 @@ module.exports = {
   //Please go to https://developer.spotify.com/dashboard/
   Spotify: {
     ClientID: process.env.Spotify_ClientID || "58b6da44042a41798585ee26d47566eb", //Spotify Client ID
-    ClientSecret: process.env.Spotify_ClientSecret || "5a417565c72545cf83711bbb84dd39f4", //Spotify Client Secret
+    ClientSecret: process.env.Spotify_ClientSecret || "ffed24a35f1949449e9672691e65e1a0", //Spotify Client Secret
     // I have Provided a Spotify Server too. 😁
   },
 };
